@@ -11,7 +11,6 @@ public class MirisHome extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
-        //Test Commit
         Timber.plant(new Timber.DebugTree());
     }
 }
